@@ -1,5 +1,13 @@
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+
+        Robot myRobot = new Robot(); //Create a new Robot object
+
+        myRobot.move(); //Make the robot move
+        myRobot.checkBatteryLevel(); //Check battery level
+        myRobot.stop(); //Stop the robot
+        myRobot.chargeBattery(); //Charge the robot's battery
+        myRobot.displayInfo(); //Display the robot's OS Version, weight, and color
     }
 }
